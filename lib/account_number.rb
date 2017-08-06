@@ -1,6 +1,6 @@
 class AccountNumber
 
-  attr_reader :status, :valid, :checksum
+  attr_reader :status, :valid, :checksum, :number
 
   def initialize(number_string)
     @number = number_string
