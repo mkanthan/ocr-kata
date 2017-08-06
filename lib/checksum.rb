@@ -7,6 +7,10 @@ class Checksum
     @result = @product % 11
   end
 
+  def valid
+    @result == 0
+  end
+
   private
 
   def calculate_product
