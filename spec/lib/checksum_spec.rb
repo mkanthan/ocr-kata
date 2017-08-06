@@ -18,11 +18,11 @@ RSpec.describe Checksum do
     end
   end
 
-  describe "valid" do
+  describe "valid?" do
     it "should be valid if the result is 0, and invalid otherwise" do
-      expect(Checksum.new(457508000).valid).to eq(true)
-      expect(Checksum.new(567889).valid).to eq(false)
-      expect(Checksum.new(123456789).valid).to eq(true)
+      expect(Checksum.new(457508000).valid?).to eq(true)
+      expect(Checksum.new(567889).valid?).to eq(false)
+      expect(Checksum.new(123456789).valid?).to eq(true)
     end
   end
 

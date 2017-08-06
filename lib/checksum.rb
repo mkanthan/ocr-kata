@@ -7,7 +7,7 @@ class Checksum
     @result = @product % 11
   end
 
-  def valid
+  def valid?
     @result == 0
   end
 
