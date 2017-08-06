@@ -17,5 +17,6 @@ RSpec.describe DigitMap do
     expect(DigitMap::SEVEN).to eq(@digits["7"])
     expect(DigitMap::EIGHT).to eq(@digits["8"])
     expect(DigitMap::NINE).to eq(@digits["9"])
+    expect(DigitMap::UNKNOWN).to eq("?")
   end
 end
