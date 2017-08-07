@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple Ruby project to solve the Kata here: {Coding Dojo Bank OCR Kata}[http://codingdojo.org/kata/BankOCR/]. While this project remains unfinished, the underlying design has been started and shows some promise.
+This is a simple Ruby project to solve the Kata here: [Coding Dojo Bank OCR Kata](http://codingdojo.org/kata/BankOCR/). While this project remains unfinished, the underlying design has been started and shows some promise.
 
 ## Project Setup
 
